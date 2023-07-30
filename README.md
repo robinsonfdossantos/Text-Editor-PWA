@@ -23,18 +23,17 @@
   
   ## Usage
   
-  Run the terminal built into VS Code. Make sure you have installed all required packages using 'npm install or npm i'.
+  Run the built-in terminal in VS Code. Make sure you have installed all required packages using 'npm install or npm i'.
 
-  When you clone the application to our local machine the folder `../client/dist` may create some conflicts, in case it happens you should delete it when create it automatically again running the command 'npm build or npm start', depeding on how your package.json has been configured. Another important note is remembe to run 'npm i or npm install' in the `client` and `server` directories to create the `node_modules` for them that will be required for their functionality and also during the deployment.
+  When you clone the application to your local machine the `../client/dist` folder can generate some conflicts, if that happens you should delete it, then it will be automatically created again when you run the command 'npm build or npm start ', depending on how your package.json was configured. Another important note is to remember to run 'npm i or npm install' in the `client` and `server` directories to create the `node_modules` for them that will be needed for their functionality and also during deployment.
 
-  When you have sure that you have all the required packages, you can run `npm start` and face the message `Now listening on port: 3000`. It means that you application is ready to run locally.
+  Once you're sure you have all the packages you need, you can run `npm start` and see the message `Now listen on port: 3000`. This means that your application is ready to run locally.
 
-  The gif below shows the functionality of the application, but note I have used my deployed application as sample, so you first have to test it on your `http://localhost:3000/`, then you can deploy it with your desired deployment tool.
+  The gif below shows the functionality of the application, but please note that I used my deployed application as a sample, so you must first test it on your `http://localhost:3000/` and then you can deploy it with the Deployment desired tool.
 
   <img src="./Assets/application.gif" alt="Quick presentation of the app" width="80%" height="80%" />
 
-
-  In addition, you can configure your browse settings in the Application in the DevTools to ensure the Manifest and the Database have been correctly configured besides check the fucntionality of the application to run it offline. You can find images in the `Assets` directory to help you with these configureations.
+  In addition, you can configure in-app navigation settings in DevTools to ensure that the manifest and database are configured correctly, as well as verify the app's functionality to run offline. You can find images in the `Assets` directory to help you with these settings.
 
   ## Deployment
 
@@ -45,7 +44,7 @@
   https://guarded-wildwood-57048-845e68a15e2e.herokuapp.com/
   
   ## License
-  
+
   This application is covered under the MIT license.
   
   ## Contributing
